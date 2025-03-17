@@ -39,7 +39,7 @@ def delete_task():
 
 def main():
     while True:
-        print("\n📋 To-Do List 📋")
+        print("\n To-Do List ")
         print("1. Add Task")
         print("2. View Tasks")
         print("3. Mark Task as Complete")
