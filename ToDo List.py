@@ -10,7 +10,7 @@ def view_tasks():
         print("No tasks found!")
     else:
         for i, task in enumerate(tasks, 1):
-            status = "✅" if task["completed"] else "❌"
+            status = "/" if task["completed"] else "X"
             print(f"{i}. {task['task']} {status}")
 
 def mark_complete():
